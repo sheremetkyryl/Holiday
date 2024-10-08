@@ -1,0 +1,15 @@
+.autorization {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.autorization__link {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 2px solid $colorTextPrimary;
+    border-color: transparent;
+}
+.autorization__link--active {
+    border-color: $colorTextPrimary;
+}
